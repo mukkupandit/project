@@ -22,7 +22,7 @@ export default function ProductCard({ product }: ProductCardProps) {
       
       <div className="flex flex-col space-y-3">
         <button 
-          onClick={() => navigate(`/product/${product.id}`)}
+          onClick={() => navigate(`/personal-details`)}
           className="w-full bg-purple-600 text-white py-2 rounded-lg font-medium hover:bg-purple-700"
         >
           Buy Now
