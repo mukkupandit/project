@@ -30,6 +30,13 @@ export default function HeroCarousel() {
           marginBottom:"-8rem"
         }}
       />
+       <div style={{ height: "27rem", width: "100%" }}>
+        <iframe 
+          src="https://www.tiktok.com/embed/7143951736766647579" 
+          style={{ height: "100%", width: "100%", border: "none" }}
+          allowFullScreen
+        ></iframe>
+      </div>
     </div>
   );
 }

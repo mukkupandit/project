@@ -50,7 +50,7 @@ export default function ProductPage() {
         />
         <div className="p-4">
           <h1 className="text-2xl font-bold text-gray-800 mb-2">{product.name}</h1>
-          <p className="text-purple-600 text-xl font-bold mb-4">${product.price}</p>
+          <p className="text-purple-600 text-xl font-bold mb-4">฿{product.price}</p>
           
           <div className="mb-6">
             <h2 className="text-lg font-semibold mb-2">Description</h2>
