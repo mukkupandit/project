@@ -18,7 +18,7 @@ export default function ProductCard({ product }: ProductCardProps) {
     />
     <div className="p-4">
       <h3 className="font-semibold text-gray-800">{product.name}</h3>
-      <p className="text-purple-600 font-bold mt-1">฿89</p>
+      <p className="text-purple-600 font-bold mt-1">THB 89</p>
       
       <div className="flex flex-col space-y-3">
         <button 
